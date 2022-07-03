@@ -10,6 +10,14 @@
 <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
 <script src="360view.js"></script>
 <body>
-    <div id='vrview'></div>
+    <div id='vrview' ></div>
 </body>
+<script>
+    var frame = document.getElementsByClassName('vrview');
+
+
+frame.onload = function(){
+    frame.style.width = '1000px';
+}
+</script>
 </html>
