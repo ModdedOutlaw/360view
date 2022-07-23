@@ -49,6 +49,8 @@ a, a:hover, a:active, a:visited {
   right: 40px;
   height: 40px;
   text-align: center;
+
+
 }
 
 .mobile #titleBar {
@@ -89,6 +91,8 @@ body.multiple-scenes.mobile #titleBar {
   -webkit-user-select: text;
   -ms-user-select: text;
   user-select: text;
+
+  display: none;
 }
 
 .mobile #titleBar .sceneName {
@@ -155,6 +159,7 @@ body.fullscreen-enabled #fullscreenToggle {
   padding: 5px;
   background-color: rgb(103,115,131);
   background-color: rgba(103,115,131,0.8);
+  display: none;
 }
 
 .mobile #autorotateToggle {
@@ -209,6 +214,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   padding: 5px;
   background-color: rgb(103,115,131);
   background-color: rgba(103,115,131,0.8);
+
+  display: none;
 }
 
 .mobile #sceneListToggle {
@@ -265,6 +272,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   margin-left: 0;
   -webkit-transition: margin-left 0.5s ease-in-out;
   transition: margin-left 0.5s ease-in-out;
+
+  display: none;
 }
 
 .mobile #sceneList {
